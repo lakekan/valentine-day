@@ -1,0 +1,50 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    direction: rtl;
+    font-size: x-large;
+  }
+  
+  body {
+    background-image: url('assests/images/WhatsApp\ Image\ 2025-02-13\ at\ 21.55.31.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+
+  .container {
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 3fr 3fr 5fr;
+}
+
+.carousel-img {
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover; 
+  }
+
+  .my-btn {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .my-btn:hover {
+    transform: scale(2); 
+    background-color: #ff4d4d; 
+  }
+
+  .no-btn:hover{
+    opacity: 0;
+  }
+  
+  .down-image{
+    width: 100%; 
+    height: 400px; 
+    object-fit: cover; 
+  }
+  
